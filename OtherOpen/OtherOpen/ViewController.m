@@ -38,6 +38,8 @@
     [self.label setText:[self.fileURL lastPathComponent]];
 }
 
+
+//这里写的比较乱，这要是测试传输过来的数据的真实性，以及添加pdf的打开方式测试demo。
 - (void)setDa:(NSData *)da{
     if (_da!= da) {
         _da = da;
